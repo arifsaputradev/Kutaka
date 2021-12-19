@@ -39,3 +39,53 @@
   color: #000;
 }
 /* End Style Navbar */
+/* Start Style Jumbotron */
+.jumbotron {
+  height: 520px;
+  width: 100%;
+  background-color: rgba(8, 107, 78, 0.05);
+}
+.jumbotronText {
+  margin-left: 25px;
+}
+.jumbotronText h1 {
+  margin-top: 118px;
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
+}
+.jumbotronText p {
+  margin: 20px auto;
+  font-size: 24px;
+}
+.jumbotronText .jumbotronInput {
+  width: 410px;
+  padding: 11px 15px;
+  background: #ffffff;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: #000;
+}
+.jumbotronText .jumbotronSearch {
+  left: -125px;
+  width: 120px;
+  position: relative;
+  border-radius: 0px 10px 10px 0px;
+  padding: 11px 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #086B4E;
+  color: #ffffff;
+}
+.jumbotronText .jumbotronSearch:hover {
+  background-color: #0b7e5b;
+}
+.jumbotron img {
+  height: 400px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 50%;
+}
+/* End Style Jumbotron */
