@@ -128,3 +128,47 @@
   margin: 25px auto;
 }
 /* End Style Layanan */
+/* Start Style Kontak */
+.kontak {
+  height: 535px;
+  background-color: rgba(8, 107, 78, 0.05);
+}
+.kontakForm {
+  margin: 0px auto;
+}
+.kontakForm h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.kontakForm form label {
+  font-size: 24px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+.kontakForm form input,
+textarea {
+  width: 600px;
+  padding: 11px 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+.kontakForm form button {
+  background: #086b4e;
+  border: none;
+  padding: 8px 9px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 12px;
+}
+.kontakForm form button:hover {
+  background-color: #0b7e5b;
+}
+/* End Style Kontak */
