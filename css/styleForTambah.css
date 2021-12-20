@@ -1,0 +1,12 @@
+/* Start Style Footer */
+footer {
+    height: 0px;
+  }
+  .footerGaris {
+    margin: 0px;
+  }
+  .footerCopyright {
+    padding: 20px 0px;
+    background-color: rgba(8, 107, 78, 0.05);
+  }
+  /* End Style Footer */
