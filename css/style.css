@@ -219,6 +219,66 @@ textarea {
 /* End Style Newsletter */
 /* Start Footer */
 footer {
-  height: 400px;
+  height: 308px;
+}
+.footerMain {
+  padding: 50px 95px 0px 95px;
+}
+.footerMain .footerLogo {
+  display: flex;
+}
+.footerMain .footerLogo img {
+  width: 50px;
+  height: 50px;
+}
+.footerMain .footerLogo a {
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+.footerList {
+  margin-left: 195px;
+  width: 100%;
+}
+.footerList .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerList .row .col {
+  width: 160px;
+}
+.footerList .row .col h4 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.footerList .row .col ul {
+  list-style: none;
+}
+.footerList .row .col ul li {
+  margin-bottom: 10px;
+}
+.footerList .row .col ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.footerGaris {
+  margin-top: 50px;
+  margin-bottom: 4px;
+  height: 2px;
+  width: 100%;
+  background: #f1f1f1;
+}
+.footerCopyright {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
 }
 /* End Footer */
