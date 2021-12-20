@@ -1,12 +1,56 @@
+/* Start Style Form Tambah Buku */
+.formTambahBuku {
+  width: 100%;
+  background-color: rgba(8, 107, 78, 0.05);
+}
+form {
+  margin: 50px auto 100px auto;
+}
+form h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+form input,
+textarea {
+  width: 600px;
+  padding: 11px 15px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+form button {
+  background: #086b4e;
+  border: none;
+  padding: 8px 9px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 12px;
+}
+form button:hover {
+  background-color: #0b7e5b;
+}
+/* End Style Form Tambah Buku */
 /* Start Style Footer */
 footer {
-    height: 0px;
-  }
-  .footerGaris {
-    margin: 0px;
-  }
-  .footerCopyright {
-    padding: 20px 0px;
-    background-color: rgba(8, 107, 78, 0.05);
-  }
-  /* End Style Footer */
+  height: 0px;
+}
+.footerGaris {
+  margin: 0px;
+}
+.footerCopyright {
+  padding: 20px 0px;
+  background-color: rgba(8, 107, 78, 0.05);
+}
+/* End Style Footer */
