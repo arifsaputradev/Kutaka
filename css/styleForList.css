@@ -1,5 +1,6 @@
 .listBuku {
   width: 100%;
+  min-height: 530px;
   height: max-content;
   background-color: rgba(8, 107, 78, 0.05);
 }
@@ -29,6 +30,22 @@ tbody tr:nth-child(even) {
 }
 tbody tr:hover {
   background-color: rgba(8, 107, 78, 0.08);
+}
+tbody tr td .buttonAksi {
+  text-align: center;
+}
+tbody tr td .buttonAksi button {
+  background-color: #0b7e5b;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 4px;
+}
+tbody tr td .buttonAksi button:hover {
+  background-color: #15926d;
+}
+tbody tr td .buttonAksi button a {
+  color: #fff;
+  text-decoration: none;
 }
 /* End Style Table */
 /* Start Style Footer */
