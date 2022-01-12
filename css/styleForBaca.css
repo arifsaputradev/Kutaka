@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  height: max-content;
+}
+.navbar {
+  background: none;
+}
+embed {
+  margin: 10px auto;
+  width: 1000px;
+  height: 550px;
+  border-radius: 20px;
+}
+/* Style Footer */
+footer {
+  height: 0px;
+}
+.footerGaris {
+  margin-top: 50px;
+}
+.footerCopyright {
+  padding: 20px 0px;
+}
