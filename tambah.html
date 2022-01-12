@@ -47,18 +47,21 @@
         <form>
           <h1>Tambah Buku Anda</h1>
           <label for="judul">Judul Buku</label><br />
-          <input id="judul" name="judul" type="text" placeholder="Masukkan Judul Buku" /><br />
+          <input id="judul" name="judul" type="text" placeholder="Masukkan Judul Buku" required /><br />
           <label for="penulis">Penulis</label><br />
-          <input id="penulis" name="penulis" type="text" placeholder="Masukkan Nama Penulis" /><br />
+          <input id="penulis" name="penulis" type="text" placeholder="Masukkan Nama Penulis" required /><br />
 
           <label for="penerbit">Penerbit</label><br />
-          <input id="penerbit" name="penerbit" type="text" placeholder="Masukkan Penerbit" /><br />
+          <input id="penerbit" name="penerbit" type="text" placeholder="Masukkan Penerbit" required /><br />
 
           <label for="tahunTerbit">Tahun Terbit</label><br />
-          <input id="tahunTerbit" name="tahunTerbit" type="text" placeholder="Masukkan Tahun Terbit" /><br />
+          <input id="tahunTerbit" name="tahunTerbit" type="text" placeholder="Masukkan Tahun Terbit" required /><br />
 
           <label for="jumlahHalaman">Jumlah Halaman</label><br />
-          <input id="jumlahHalaman" name="jumlahHalaman" type="text" placeholder="Masukkan Jumlah Halaman" /><br />
+          <input id="jumlahHalaman" name="jumlahHalaman" type="text" placeholder="Masukkan Jumlah Halaman" required /><br />
+
+          <label for="dokumen">Kirim File(PDF)</label>
+          <input id="dokumen" name="dokumen" accept="application/pdf" type="file" /><br />
           <button>Tambah Buku</button>
         </form>
       </div>
