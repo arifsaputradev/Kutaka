@@ -1,0 +1,38 @@
+#registerMasuk {
+  width: 100%;
+  margin-bottom: 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+  height: max-content;
+}
+#registerMasuk .formMasuk {
+  width: 500px;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+#registerMasuk .logoKutaka {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+#registerMasuk .logoKutaka a {
+  padding: 10px 0px 0px 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+}
+footer {
+  height: max-content;
+}
+.footerCopyright {
+    margin-bottom: 4px;
+}
