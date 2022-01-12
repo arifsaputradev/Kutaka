@@ -11,6 +11,7 @@
 }
 /* Style Navbar */
 .navbar {
+  width: 100%;
   height: 80px;
   background-color: rgba(8, 107, 78, 0.05);
 }
@@ -37,6 +38,38 @@
   text-decoration: none;
   margin-left: 25px;
   color: #000;
+}
+.navbarList ul li a:hover {
+  color: #086b4e;
+}
+.navbarButton {
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.navbarButton button {
+  border-radius: 10px;
+  padding: 7px 9px;
+  background: none;
+  border: 2px solid #086b4e;
+}
+.navbarButton button a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbarButton .buttonDaftar {
+  background: #086b4e;
+  margin-left: 10px;
+}
+.navbarButton .buttonDaftar:hover,
+.buttonMasuk:hover {
+  box-shadow: 0 0 0 2px #48b997;
+}
+.navbarButton .buttonMasuk a {
+  color: #086b4e;
+}
+.navbarButton .buttonDaftar a {
+  color: #fff;
 }
 /* End Style Navbar */
 /* Start Style Jumbotron */
