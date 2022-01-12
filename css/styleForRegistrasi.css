@@ -1,4 +1,5 @@
-#registerMasuk {
+#registerMasuk,
+#registerDaftar {
   width: 100%;
   margin-bottom: 0px;
 }
@@ -10,23 +11,25 @@
   height: max-content;
 }
 /* Style Logo */
-#registerMasuk .logoKutaka {
+#registerMasuk .logoKutaka,
+#registerDaftar .logoKutaka {
   width: 100%;
   margin: 50px auto;
   display: flex;
   justify-content: center;
 }
-#registerMasuk .logoKutaka a {
+#registerMasuk .logoKutaka a,
+#registerDaftar .logoKutaka a {
   padding: 10px 0px 0px 10px;
   text-decoration: none;
   font-weight: 500;
   font-size: 30px;
   color: #000;
 }
-/* Style Form Masuk */
-#registerMasuk .formMasuk {
+/* Style Form Masuk and Daftar*/
+#registerMasuk .formMasuk,
+#registerDaftar .formDaftar {
   width: 500px;
-  height: 600px;
   background: #ffffff;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -35,21 +38,25 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-#registerMasuk .formMasuk form p {
+#registerMasuk .formMasuk form p,
+#registerDaftar .formDaftar form p {
   text-align: center;
   color: #086b4e;
   font-size: 18px;
   margin-top: 50px;
   margin-bottom: 25px;
 }
-#registerMasuk .formMasuk form {
+#registerMasuk .formMasuk form,
+#registerDaftar .formDaftar form {
   width: 400px;
   height: max-content;
 }
-#registerMasuk .formMasuk form label {
+#registerMasuk .formMasuk form label,
+#registerDaftar .formDaftar form label {
   font-size: 14px;
 }
-#registerMasuk .formMasuk form input {
+#registerMasuk .formMasuk form input,
+#registerDaftar .formDaftar form input {
   padding: 10px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -59,31 +66,40 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-#registerMasuk .formMasuk form .masuk {
+#registerMasuk .formMasuk form .masuk,
+#registerDaftar .formDaftar form .daftar {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
   background: #086b4e;
   color: #fff;
 }
-#registerMasuk .formMasuk form .masuk:hover {
+#registerMasuk .formMasuk form .masuk:hover,
+#registerDaftar .formDaftar form .daftar:hover {
   background: #0b7e5b;
 }
-#registerMasuk .formMasuk p {
+#registerMasuk .formMasuk p,
+#registerDaftar .formDaftar p {
+  margin-bottom: 50px;
   font-size: 14px;
   color: #555;
 }
-#registerMasuk .formMasuk p a {
+#registerMasuk .formMasuk p a,
+#registerDaftar .formDaftar p a {
   color: #086b4e;
   text-decoration: none;
 }
-#registerMasuk .formMasuk p a:hover {
+#registerMasuk .formMasuk p a:hover,
+#registerDaftar .formDaftar p a:hover {
   color: #555;
 }
 /* Style Footer */
 footer {
-  height: max-content;
+  height: 0px;
+}
+.footerGaris {
+  margin-top: 50px;
 }
 .footerCopyright {
-  margin-bottom: 4px;
+  padding: 20px 0px;
 }
