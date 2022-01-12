@@ -303,6 +303,9 @@ footer {
   color: #000;
   font-size: 20px;
 }
+.footerList .row .col ul li a:hover {
+  color: #086b4e;
+}
 .footerGaris {
   margin-top: 50px;
   margin-bottom: 4px;
